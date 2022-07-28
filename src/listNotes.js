@@ -8,11 +8,11 @@ const listNotes = [
         content: "Second Text"
     },
     {
-        title: "THIRD",
+        title: "QUAD",
         content: "Third Text: Lorem ipsum"
     },
     {
-        title: "QUAD",
+        title: "OCTA",
         content: "Quad Text"
     }
 ]

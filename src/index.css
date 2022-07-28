@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .header {
-  color: whitesmoke;
-  background-color: indigo;
+  color: rgb(27, 22, 56);
+  background-color: rgb(231, 223, 213);
   width: 100%;
   text-align: center;
   font-family: 'Droid Sans';
@@ -18,9 +18,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.header:hover { color: gray; background-color: whitesmoke; transition: 3s; }
+.header:hover {  transition: 3s; }
 
 .container { display: inline-block; }
+
+.area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+#input-form {
+  margin: 5px;
+  border-radius: 5px;
+  width: 282px;
+  height: 25px;  
+}
+
+#area-form {
+  margin: 5px;
+  border-radius: 5px;
+  width: 282px;
+  height: 70px;
+}
+
+#btn { 
+  border-radius: 35px; padding: 4px; color: rgb(255, 255, 255); 
+  background-color: rgb(64, 70, 66); transition: 2s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#btn:hover { background-color: goldenrod; color:rgb(17, 3, 34); transition: 1s; }
+
+#btn-del { 
+  border-radius: 35px; padding: 4px; color: rgb(255, 255, 255); 
+  background-color: rgb(64, 70, 66); transition: 2s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn-del:hover { background-color: goldenrod; color:rgb(17, 3, 34); transition: 1s; }
 
 .noteStyle {
   color: rgb(27, 22, 56);
